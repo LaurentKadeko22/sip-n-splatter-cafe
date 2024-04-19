@@ -9,4 +9,6 @@ Sip'n splatter cafe was founded 2024 by Laurent Kadeko, he's passion for coffe a
 The future vision of sip'n splatter cafe is to help people both academic, workers and people who just enjoy drinking with friends or family to get a good start rather then having a bad start of the day. 
 
 ### The audience
-coffe connoisseurs and above 18 years old!
+coffe connoisseurs and 18 and above years old!
+
+### Design
