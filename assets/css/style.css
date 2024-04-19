@@ -4,3 +4,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* hero img and navigation */
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.3)), url("../img/hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Navigation links */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+
+.logo{
+  width: 140px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.links li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.links li a{
+  text-decoration: none;
+  color: white;
+}
+
+.signup-btn{
+  background: #F9C06A;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup-btn:hover{
+  background-color: #f9c06a9f;
+}
