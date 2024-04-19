@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* hero img and navigation */
 .header{
   min-height: 100vh;
@@ -50,6 +54,13 @@ nav{
   text-transform: uppercase;
 }
 
+.header p, h1{
+  font-size: 2vw;
+  font-weight: 500;
+  color: white;
+  padding: 10px 0;
+}
+
 .order-now{
   background: #F9C06A;
   color: black;
@@ -64,17 +75,6 @@ nav{
   background-color: #f9c06a9f;
 }
 
-/* information */
-.container{
-  padding: 0 7% ;
-}
-
-.header p, h1{
-  font-size: 2vw;
-  font-weight: 500;
-  color: white;
-  padding: 10px 0;
-}
 
 .order-now{
   padding: 20px 40px;
@@ -84,3 +84,52 @@ nav{
 .order-now:hover{
   background-color: #f9c06a9f;
 }
+
+/* discover */
+.discover{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-col {
+  flex-basis: 70%;
+}
+
+.right-col{
+  flex-basis: 25% ;
+}
+
+.right-col img{
+  width: 350px;
+}
+
+.left-col{
+  padding: 10px 20px;
+}
+
+.left-col h2{
+  padding-bottom: 40px 40px;
+  color: #442808;
+  font-size: 40px;
+}
+
+.left-col p{
+  width: 50%;
+}
+
+.learn-more{
+  background: #F9C06A;
+  color: black;
+  padding: 20px 40px;
+  margin: 10px 0;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #1E1E1E;
+  display: inline-block;
+}
+
+/* latest product */
