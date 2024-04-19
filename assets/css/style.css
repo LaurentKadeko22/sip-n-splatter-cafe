@@ -50,6 +50,37 @@ nav{
   text-transform: uppercase;
 }
 
+.order-now{
+  background: #F9C06A;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
 .signup-btn:hover{
+  background-color: #f9c06a9f;
+}
+
+/* information */
+.container{
+  padding: 0 7% ;
+}
+
+.header p, h1{
+  font-size: 2vw;
+  font-weight: 500;
+  color: white;
+  padding: 10px 0;
+}
+
+.order-now{
+  padding: 20px 40px;
+  display: inline-block;
+}
+
+.order-now:hover{
   background-color: #f9c06a9f;
 }
