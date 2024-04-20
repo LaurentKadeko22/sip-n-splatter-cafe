@@ -142,16 +142,11 @@ nav{
   text-align: center ;
   font-size: 40px;
   color: #442808;
+  padding: 10px;
 }
 
-.container p{
+.we-make-your-coffe{
   text-align: center;
-  font-size: 12px;
-  padding-top: 10px;
-}
-
-.supreme-bean {
-  border: 2px solid white;
 }
 
 .container .supreme-bean {
@@ -165,7 +160,7 @@ nav{
 }
 
 .supreme-bean div img{
-  width: 50%;
+  width: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
