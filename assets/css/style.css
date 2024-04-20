@@ -94,10 +94,7 @@ nav{
   align-items: center;
 }
 
-.left-col {
-  flex-basis: 70%;
-}
-
+/* Discover The Best Coffe image */
 .right-col{
   flex-basis: 25% ;
 }
@@ -106,14 +103,21 @@ nav{
   width: 350px;
 }
 
+/* Discover The Best Coffe section */
+
+.left-col {
+  flex-basis: 70%;
+}
+
+
 .left-col{
   padding: 10px 20px;
 }
 
 .left-col h2{
-  padding-bottom: 40px 40px;
+  margin: 50px 0;
   color: #442808;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .left-col p{
@@ -132,4 +136,42 @@ nav{
   display: inline-block;
 }
 
-/* latest product */
+/* why we are different */
+
+.container h2{
+  text-align: center ;
+  font-size: 40px;
+  color: #442808;
+}
+
+.container p{
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.supreme-bean {
+  border: 2px solid white;
+}
+
+.container .supreme-bean {
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.supreme-bean div img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+
+.supreme-bean h2{
+  font-size: 14px;
+}
